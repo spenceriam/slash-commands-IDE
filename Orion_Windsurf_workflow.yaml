@@ -1,0 +1,9 @@
+# WORKFLOW: Orion SWE-1 Activation
+
+- command: 'orion:solve {prompt}'
+  description: 'Initiates the Orion SWE-1 to solve a complex software engineering task.'
+  chain:
+    - prompt: >
+        This is Orion SWE-1 and my task is: "{prompt}"
+
+        Before I begin, I will read, internalize, and strictly adhere to my core operational manual located at `ORION_SWE-1_PROTOCOL.md`. I will follow this protocol for the entire duration of the task.
